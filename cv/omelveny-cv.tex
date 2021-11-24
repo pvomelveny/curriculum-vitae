@@ -16,6 +16,10 @@
 % \usepackage{enumitem}
 \usepackage{subfiles}
 
+% Make C++ look pretty
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize ++}}
+
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -43,14 +47,14 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
 \name{Patrick V.}{O'Melveny}
-\position{Mathematician{\enskip\cdotp\enskip}Musician}
+%\position{Mathematician{\enskip\cdotp\enskip}Musician}
 \address{San Francisco, CA}
 
 \mobile{+1(650)773-4414}
 \email{pomelveny@mail.sfsu.edu}
 \homepage{pvomelveny.com}
-\github{pvomelveny}
-%\linkedin{posquit0}
+% \github{pvomelveny}
+% \linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -63,37 +67,6 @@
 % \extrainfo{extra informations}
 
 %\quote{``Be the change that you want to see in the world."}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \setlist{nosep}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \author{TEMPLATE}
-% \title{CV TEMPLATE} % I format it as CV MONTH YEAR
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \begin{document}
-
-% % DON'T CHANGE THE PAGESTYLE!
-% \pagestyle{empty}
-
-% % Header stuff
-% \begin{center}
-%     {\LARGE \textbf{Patrick O'Melveny} } \\
-%     San Francisco, CA \\
-%     pomelveny@mail.sfsu.edu $\vert$ pvomelveny.com
-% \end{center}
-% \vspace{-5mm}\noindent\rule{\textwidth}{1pt} \\ % Creates a lovely thick line. 10/10
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -121,6 +94,10 @@
 
 \subfile{experence/experience.tex}
 
+\subfile{outreach/outreach.tex}
+
+\subfile{skills/skills.tex}
+
 % ------------- RESEARCH ------------- %
 %\noindent\uline{\textbf{Research} \hfill}
 
@@ -142,14 +119,13 @@
 % ------------- OUTREACH ------------- %
 %\noindent\uline{\textbf{Outreach} \hfill}
 
-% \input{outreach.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % ------------- SKILLS ------------- %
 %\noindent\uline{\textbf{Skills} \hfill}
 
-% \input{skills.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
